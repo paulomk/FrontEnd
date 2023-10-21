@@ -73,6 +73,7 @@ section {
   flex: 70%;
   border-style: solid;
   padding: 0.5em  0  1em  1.5em;
+  overflow: scroll;
 }
 
 #myphoto{
@@ -112,6 +113,7 @@ footer{
   }
   nav a{
     margin-right: 0;
+    margin-top: 1em;
 
   }
   nav{
