@@ -13,6 +13,7 @@ header{
 }
 
 nav{
+  display: flex;
   padding: 1.5em;
   border-color: #dc143c;
   border-style: ridge;
@@ -98,9 +99,7 @@ table td{
   border: solid whitesmoke;
   padding: 1em;
 }
-.job-postition{
-  text-decoration: underline; 
-}
+
 footer{
   color: #dc143c;
 }
@@ -108,16 +107,24 @@ footer{
 
 /*Mobile viewport styles*/
 @media screen and (max-width: 480px) {
-  /* body{
-  background-color: lightseagreen;
-  } */
+  .content-container{
+    flex-direction: column;
+  }
+  nav a{
+    margin-right: 0;
+
+  }
+  nav{
+    flex-direction: column;
+  }
+
 }
 
 /*Tablet viewport styles*/
 @media screen and (max-width: 768px) and (min-width: 481px) {
-  /* body{
-    background-color: lightblue;
-  } */
+  .content-container{
+    flex-direction: column;
+  }
 }
 
 /*Desktop viewport styles*/
