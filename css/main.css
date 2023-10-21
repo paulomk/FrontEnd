@@ -8,8 +8,6 @@ body {
 
 header{
   color: #dc143c;
-
-
 }
 
 nav{
@@ -31,7 +29,17 @@ nav a{
   background-color: crimson;
 }
 
-nav a:hover{
+.button{
+  text-align: center;
+  margin-right: 5em;
+  padding: .5em;
+  width: fit-content;
+  border-radius: 10% 30% 10% 30%;
+  color: whitesmoke;
+  background-color: crimson;
+}
+
+a:hover{
   background-color: rgb(58, 58, 58);
 }
 
@@ -47,16 +55,24 @@ aside {
   padding: 1.5em;
 }
 
+aside a{
+  border-style: outset;
+  padding: .5em;
+}
+
 section {
   background-color: #dc143c;
   flex: 70%;
   border-style: solid;
-  padding: 0.5em  0  1em  1.5em;
+  padding: 1.5em  .5em  1em  1.5em;
 }
 
 #myphoto{
   border-radius: 100%;
   width: auto;
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: .5em;
 }
 
 svg{
