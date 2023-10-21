@@ -98,7 +98,9 @@ table td{
   border: solid whitesmoke;
   padding: 1em;
 }
-
+.job-postition{
+  text-decoration: underline; 
+}
 footer{
   color: #dc143c;
 }
