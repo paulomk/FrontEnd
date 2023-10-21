@@ -1,0 +1,127 @@
+/* General styles*/
+body {
+  font-family: Arial, sans-serif;
+  padding: 1em;
+  background-color: whitesmoke;
+  color: whitesmoke; 
+}
+
+header{
+  color: #dc143c;
+
+
+}
+
+nav{
+  padding: 1.5em;
+  border-color: #dc143c;
+  border-style: ridge;
+  border-left: 0;
+  border-right: 0;
+  background-color: whitesmoke;
+}
+
+nav a{
+  text-align: center;
+  margin-right: 5em;
+  padding: .5em;
+  width: fit-content;
+  border-radius: 10% 30% 10% 30%;
+  color: whitesmoke;
+  background-color: crimson;
+}
+
+nav a:hover{
+  background-color: rgb(58, 58, 58);
+}
+
+#current-page{
+  background-color: rgb(58, 58, 58);
+}
+
+.content-container{
+  display: flex;
+  margin-bottom: 3em;
+}
+aside {
+  flex: 20%;
+  border-style: solid;
+  background-color: rgb(59, 59, 59);
+  padding: 1.5em;
+}
+
+#links-list{
+  list-style: none;
+}
+.content-container aside{
+  text-align: center;
+  padding-left: 0;
+}
+
+#links-list li{
+  margin-bottom: 1em;
+}
+
+.list-img{
+  width: 80%;
+  padding: 0 1em;
+}
+
+section {
+  background-color: #dc143c;
+  flex: 70%;
+  border-style: solid;
+  padding: 0.5em  0  1em  1.5em;
+}
+
+#myphoto{
+  border-radius: 100%;
+  width: auto;
+}
+
+svg{
+  max-width: 5%;
+
+}
+
+table{
+  border-collapse: collapse;
+  border: solid whitesmoke;
+}
+
+table th{
+  border: solid whitesmoke;
+  padding: 1em;
+}
+
+table td{
+  border: solid whitesmoke;
+  padding: 1em;
+}
+
+footer{
+  color: #dc143c;
+}
+/* Responsive styles */
+
+/*Mobile viewport styles*/
+@media screen and (max-width: 480px) {
+  /* body{
+  background-color: lightseagreen;
+  } */
+}
+
+/*Tablet viewport styles*/
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  /* body{
+    background-color: lightblue;
+  } */
+}
+
+/*Desktop viewport styles*/
+@media screen and (min-width: 769px) {
+  /* body{
+    background-color: lightsalmon;
+  } */
+}
+
