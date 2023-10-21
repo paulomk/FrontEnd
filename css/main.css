@@ -31,6 +31,9 @@ nav a{
   background-color: crimson;
 }
 
+nav a:hover{
+  background-color: rgb(58, 58, 58);
+}
 
 .content-container{
   display: flex;
